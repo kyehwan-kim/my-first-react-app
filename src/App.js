@@ -15,11 +15,42 @@ import Condition from "./components/Condition";
 import LikeBtn from "./components/LikeBtn";
 import ClassState from "./components/ClassState";
 import StateAndVariable from "./components/StateAndVariable";
+import StateProblem from "./components/StateProblem";
+import List from "./components/List";
+import PropsHeader from "./components/PropsHeader";
+import MultiProps from "./components/MultiProps";
+import ClassProps from "./components/ClassProps";
+import ListChild from "./components/ListChild";
+import ItemList from "./components/ItemList";
+import CustomList from "./components/CustomList";
+import CustomObj from "./components/CustomObj";
+import ExChangeObj from "./components/ExChangeObj";
 
 function App() {
+  // const str = "Go naver";
+  const nameArr = ["뽀로로", "루피", "크롱이"];
+  const pororoObj = {
+    name: "뽀로로",
+    age: "5",
+    nickName: "사고뭉치",
+  };
+
   return (
     <div className="App">
-      <StateAndVariable />
+      <ExChangeObj />
+      {/* <CustomList /> */}
+      {/* <CustomObj /> */}
+      {/* <ItemList /> */}
+      {/* <List /> */}
+      {/* <ListChild /> */}
+      {/* <ClassProps name="Pororo" age="5" nickName="rororo" /> */}
+      {/* <MultiProps text={str} href="https://naver.com" userID="Hwan" /> */}
+      {/* <PropsHeader text="Hello, Props Wolrd!" />
+      <PropsHeader text="Bye, Props Wolrd!" />
+      <PropsHeader text="Welcome back, Props Wolrd!" /> */}
+      {/* <List /> */}
+      {/* <StateProblem /> */}
+      {/* <StateAndVariable /> */}
       {/* <ClassState /> */}
       {/* <LikeBtn /> */}
       {/* <Condition /> */}
