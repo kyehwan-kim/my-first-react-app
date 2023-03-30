@@ -1,7 +1,10 @@
 import React from 'react';
 import './App.css';
+import PracticeTimerRender from './components/PracticeTimerRender';
+// import TimerRender from './components/TimerRender';
+// import TestUseEffect from './components/TestUseEffect';
 // import ConditionalPractice from './components/ConditionalPractice';
-import PracticeConditionalProps from './components/PracticeConditionalProps';
+// import PracticeConditionalProps from './components/PracticeConditionalProps';
 // import ConditionalState from './components/ConditionalState';
 // import ReactFragment from './components/ReactFragment';
 // import logo from "./logo.svg";
@@ -48,7 +51,10 @@ function App() {
 
   return (
     <div className="App">
-      <PracticeConditionalProps />
+      <PracticeTimerRender />
+      {/* <TimerRender /> */}
+      {/* <TestUseEffect /> */}
+      {/* <PracticeConditionalProps /> */}
       {/* <ConditionalPractice /> */}
       {/* <ConditionalState /> */}
       {/* <ReactFragment /> */}
