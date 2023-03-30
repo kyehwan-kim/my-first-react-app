@@ -1,12 +1,16 @@
-// import logo from "./logo.svg";
+import React from 'react';
 import './App.css';
-import ChangeFocus from './components/ChangeFocus';
-import Comparing from './components/Comparing';
-import ExRefDom from './components/ExRefDom';
-import QuizProgram from './components/QuizProgram';
-import ReactFragment from './components/ReactFragment';
-import RefDomControl from './components/RefDomControl';
-import TestRef from './components/TestRef';
+// import ConditionalPractice from './components/ConditionalPractice';
+import PracticeConditionalProps from './components/PracticeConditionalProps';
+// import ConditionalState from './components/ConditionalState';
+// import ReactFragment from './components/ReactFragment';
+// import logo from "./logo.svg";
+// import ChangeFocus from './components/ChangeFocus';
+// import Comparing from './components/Comparing';
+// import ExRefDom from './components/ExRefDom';
+// import QuizProgram from './components/QuizProgram';
+// import RefDomControl from './components/RefDomControl';
+// import TestRef from './components/TestRef';
 // import MainHeader from "./components/MainHeader";
 // import ImgComponent from "./components/ImgComponent";
 // import BtnToNaver from "./components/BtnToNaver";
@@ -44,7 +48,10 @@ function App() {
 
   return (
     <div className="App">
-      <ReactFragment />
+      <PracticeConditionalProps />
+      {/* <ConditionalPractice /> */}
+      {/* <ConditionalState /> */}
+      {/* <ReactFragment /> */}
       {/* <Comparing /> */}
       {/* <QuizProgram /> */}
       {/* <ExRefDom /> */}
