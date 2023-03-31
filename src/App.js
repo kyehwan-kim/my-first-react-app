@@ -1,6 +1,10 @@
 import React from 'react';
 import './App.css';
-import PracticeTimerRender from './components/PracticeTimerRender';
+import AppStyledComponent from './components/AppStyledComponent';
+// import TestStyled from './components/TestStyled';
+// import UsingUseMemo from './components/UsingUseMemo';
+// import UseEffectFetch from './components/UseEffectFetch';
+// import PracticeTimerRender from './components/PracticeTimerRender';
 // import TimerRender from './components/TimerRender';
 // import TestUseEffect from './components/TestUseEffect';
 // import ConditionalPractice from './components/ConditionalPractice';
@@ -51,7 +55,11 @@ function App() {
 
   return (
     <div className="App">
-      <PracticeTimerRender />
+      <AppStyledComponent />
+      {/* <TestStyled /> */}
+      {/* <UsingUseMemo /> */}
+      {/* <UseEffectFetch /> */}
+      {/* <PracticeTimerRender /> */}
       {/* <TimerRender /> */}
       {/* <TestUseEffect /> */}
       {/* <PracticeConditionalProps /> */}
