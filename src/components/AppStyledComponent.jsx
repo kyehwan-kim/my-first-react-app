@@ -16,7 +16,7 @@ const AppHeader = styled.header`
   color: white;
 `;
 
-const move = keyframes`
+const appLogoSpin = keyframes`
   from {
     transform: rotate(0deg);
   }
@@ -28,7 +28,7 @@ const move = keyframes`
 const AppLogo = styled.img`
   height: 40vmin;
   pointer-events: none;
-  animation: ${move} infinite 20s linear;
+  animation: ${appLogoSpin} infinite 20s linear;
 `;
 
 const MyA = styled.a`
