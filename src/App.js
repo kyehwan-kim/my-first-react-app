@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
-import AppStyledComponent from './components/AppStyledComponent';
+import PropsStyle from './components/PropsStyle';
+// import AppStyledComponent from './components/AppStyledComponent';
 // import TestStyled from './components/TestStyled';
 // import UsingUseMemo from './components/UsingUseMemo';
 // import UseEffectFetch from './components/UseEffectFetch';
@@ -55,7 +56,8 @@ function App() {
 
   return (
     <div className="App">
-      <AppStyledComponent />
+      <PropsStyle color="orange" />
+      {/* <AppStyledComponent /> */}
       {/* <TestStyled /> */}
       {/* <UsingUseMemo /> */}
       {/* <UseEffectFetch /> */}
